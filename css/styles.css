@@ -1,0 +1,129 @@
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mastHead {
+  background-image: url("../img/mastHead.jpg");
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 300px;
+  position: fixed;
+  margin-left: 560px;
+  border-radius: 20%;
+  z-index: 1;
+  border: 1px solid red;
+}
+
+.map {
+  background-image: url("../img/map.jpg");
+  width: 100%;
+  height: 1000px;
+  margin-top: 300px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.africa img {
+  height: auto;
+  width: 75px;
+}
+
+.asia img {
+  height: auto;
+  width: 75px;
+}
+
+.southAmerica img {
+  height: auto;
+  width: 75px;
+}
+
+.northAmerica img {
+  height: auto;
+  width: 75px;
+}
+
+.australiaEurope img {
+  height: auto;
+  width: 75px;
+}
+
+.animal {
+  border: 1px solid red;
+  width: 100px;
+  text-align: center;
+  position: absolute;
+}
+
+.animal p {
+  margin: 1px;
+}
+
+#wolf {
+  left: 53%;
+  top: 40%;
+}
+
+#seal {
+  left: 48%;
+  top: 22%;
+}
+
+#zebra {
+  left: 49%;
+  top: 58%;
+}
+
+#horse {
+  left: 65%;
+  top: 10%;
+}
+
+#dolphin {
+  left: 57%;
+  top:22%;
+}
+
+#lion {
+  left: 63%;
+  top: 28%;
+}
+
+#cat {
+  left: 26%;
+  top: 57%;
+}
+
+#armadillo {
+  left: 25%;
+  top: 40%;
+}
+
+#uakari {
+  left: 30%;
+  top: 49%;
+}
+
+#ocelot {
+  left: 16%;
+  top: 25%;
+}
+
+#bison {
+  left: 18%;
+  top: 13%;
+}
+
+#wallaby {
+  top: 55%;
+  left: 78%;
+}
+
+#argali {
+  top: 10%;
+  left: 48%;
+}
