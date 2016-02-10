@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'norwester';
+  src: url("norwester.otf");
+}
+.monkSeal {
+  background-image: url("../img/sealBackground.png");
+  width: 1171px;
+  height: 725px;
+  position: relative;
+}
+
+.monkSeal div {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  color: white;
+  text-shadow: 0 1px 1px black;
+  font-family: sans-serif;
+}
+
+.monkSeal h1, h3 {
+    font-family: "norwester";
+}
+
+#size {
+  left: 25px;
+  top: 250px;
+}
+
+#lifeSpan {
+  left: 50px;
+  top: 460px;
+}
+#lifeSpan img {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+#diet {
+  left: 850px;
+  top: 430px;
+}
+
+#diet img {
+  width: 200px;
+  height: auto;
+  border-radius:30%;
+}
+#habitat {
+  left: 400px;
+  top: 30px;
+}
+#sealMap {
+  left: 30px;
+}
+
+#sealMap img{
+  width: 300px;
+  height: auto;
+}
