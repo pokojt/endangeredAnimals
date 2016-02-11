@@ -31,9 +31,16 @@ h1 {
 
 h3 {
   font-family: 'learningCurve';
-  font-size: 70px;
+  font-size: 75px;
   color: #737373;
   margin-top: 50px;
+}
+
+h4 {
+  font-family: 'learningCurve';
+  font-size: 50px;
+  color: black;
+  position: absolute;
 }
 
 .ethiopianWolf div {
@@ -100,5 +107,26 @@ h3 {
 }
 #images #wolfpack {
   left: 1557px;
-  top: 36px;
+  top: 37px;
+}
+
+#diet {
+  left: 1410px;
+  top: -20px;
+  -webkit-transform: rotate(-2.5deg);
+    -moz-transform: rotate(-1.5deg);
+      -ms-transform: rotate(-1.5deg);
+        -o-transform: rotate(-1.5deg);
+          tranform: rotate(-1.5deg);
+}
+
+#habitatCaption {
+  left: 1750px;
+  top: -20px;
+}
+
+#pack {
+  left: 2040px;
+  top: -25px;
+  -webkit-transform: rotate(2.5deg);
 }
