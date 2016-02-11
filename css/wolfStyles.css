@@ -1,0 +1,104 @@
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@font-face {
+  font-family: 'ostrich';
+  src: url("ostrich-regular.ttf");
+}
+@font-face {
+  font-family: 'learningCurve';
+  src: url("LearningCurve_OT.otf");
+}
+
+.ethiopianWolf {
+  background-image: url("../img/wolfBackground.jpg");
+  width: 2400px;
+  height: 1600px;
+  position: relative;
+}
+
+h1 {
+  font-family: 'ostrich';
+  font-size: 150px;
+  color: #737373;
+  margin-bottom: 0;
+  text-shadow: 0 4px 4px lightgray;
+}
+
+h3 {
+  font-family: 'learningCurve';
+  font-size: 70px;
+  color: #737373;
+  margin-top: 50px;
+}
+
+.ethiopianWolf div {
+  position: relative;
+}
+
+.ethiopianWolf img {
+  position: relative;
+}
+
+#title {
+  width: 1200px;
+  left: 1200px;
+  top: 150px;
+  text-align: center;
+}
+
+#summary {
+  width: 700px;
+  left: 1450px;
+  top: 180px;
+  color: #737373;
+  font-size: 45px;
+  font-family: 'ostrich';
+  text-align: center;
+}
+
+#polaroid {
+  width: 1000px;
+  left: 1300px;
+  top: 350px;
+}
+
+#polaroid img {
+  height: 350px;
+  width: auto;
+}
+#polaroid #p1 {
+  -webkit-transform: rotate(-2.5deg);
+    -moz-transform: rotate(-1.5deg);
+      -ms-transform: rotate(-1.5deg);
+        -o-transform: rotate(-1.5deg);
+          tranform: rotate(-1.5deg);
+}
+
+#images img {
+  height: 217px;
+  width: 217px;
+}
+
+#images #molerat {
+  left: 1345px;
+  top: 36px;
+  -webkit-transform: rotate(-2.5deg);
+    -moz-transform: rotate(-1.5deg);
+      -ms-transform: rotate(-1.5deg);
+        -o-transform: rotate(-1.5deg);
+          tranform: rotate(-1.5deg);
+}
+
+#images #habitat {
+  left: 1454px;
+  top: 36px;
+}
+#images #wolfpack {
+  left: 1557px;
+  top: 36px;
+}
