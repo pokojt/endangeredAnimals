@@ -91,6 +91,14 @@ h4 {
   width: 217px;
 }
 
+#images {
+  width: 1000px;
+  margin-right: 0;
+  position: absolute;
+  float: right;
+}
+
+
 #images #molerat {
   left: 1345px;
   top: 36px;
@@ -112,7 +120,7 @@ h4 {
 
 #diet {
   left: 1410px;
-  top: -20px;
+  top: 190px;
   -webkit-transform: rotate(-2.5deg);
     -moz-transform: rotate(-1.5deg);
       -ms-transform: rotate(-1.5deg);
@@ -122,11 +130,11 @@ h4 {
 
 #habitatCaption {
   left: 1750px;
-  top: -20px;
+  top: 190px;
 }
 
 #pack {
   left: 2040px;
-  top: -25px;
+  top: 195px;
   -webkit-transform: rotate(2.5deg);
 }
